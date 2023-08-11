@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj": {}
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj": {
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj",
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj",
         "projectName": "Blog.Api",
-        "projectPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\Blog.Api.csproj",
         "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\obj\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Blog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj"
+              },
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\BlogApi.Infrastructure.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\BlogApi.Infrastructure.csproj"
+              },
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\BlogApi.Persistence.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\BlogApi.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,6 +51,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.18.1, )"
@@ -65,6 +81,282 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
+        "projectName": "BlogApi.Application",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj",
+        "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj",
+        "projectName": "BlogApi.Domain",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\BlogApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\BlogApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\BlogApi.Infrastructure.csproj",
+        "projectName": "BlogApi.Infrastructure",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\BlogApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\BlogApi.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\BlogApi.Persistence.csproj",
+        "projectName": "BlogApi.Persistence",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\BlogApi.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Infrastructure\\BlogApi.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj": {
+                "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\BlogApi\\Core\\BlogApi.Application\\BlogApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

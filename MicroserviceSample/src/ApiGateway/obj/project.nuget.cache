@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2CXzS0NT5kY63qxgrzVR/n5ZGxM9TZvi6PqCEpp6B10n1NTFGDO9zxWedlkzMuoVYJwWS0Eq1GlF7hHIeMOytw==",
+  "dgSpecHash": "7cVl/qteL+X/5XRK6Fx/j+PtetWQ4LVh23ezpdyIjUGXQsOEiQUla6cW/up/6GLerLC1KFhKtrbsvOQppR5CYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dogukan\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Dogukan\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",

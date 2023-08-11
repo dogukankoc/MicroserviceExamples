@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj": {}
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj": {
+    "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj",
+        "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj",
         "projectName": "User.Api",
-        "projectPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj",
+        "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\UserApi\\User.Api\\User.Api.csproj",
         "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\Services\\UserApi\\User.Api\\obj\\",
+        "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\Services\\UserApi\\User.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",

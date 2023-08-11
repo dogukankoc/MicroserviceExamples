@@ -10,8 +10,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\BlogApi.Application\BlogApi.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\BlogApi.Infrastructure\BlogApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Infrastructure\BlogApi.Persistence\BlogApi.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

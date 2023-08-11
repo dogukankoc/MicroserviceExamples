@@ -1,12 +1,20 @@
+using BlogApi.Application.Settings;
+using BlogApi.Infrastructure;
+using BlogApi.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpContextAccessor();
+builder.Services.Configure<TenantSettings>(builder.Configuration.GetSection("TenantSettings"));
+builder.Services.AddInfrastructureService();
+await builder.Services.AddPersistenceService();
+
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

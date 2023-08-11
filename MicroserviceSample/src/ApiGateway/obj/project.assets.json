@@ -1636,11 +1636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
+      "projectUniqueName": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
       "projectName": "ApiGateway",
-      "projectPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
+      "projectPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\src\\ApiGateway\\ApiGateway.csproj",
       "packagesPath": "C:\\Users\\Dogukan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dogukan\\Desktop\\MicroserviceSample\\src\\ApiGateway\\obj\\",
+      "outputPath": "C:\\MySpace\\MicroserviceExamples\\MicroserviceSample\\src\\ApiGateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dogukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
